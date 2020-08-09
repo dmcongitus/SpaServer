@@ -1,0 +1,38 @@
+[debug] [2020-08-09T21:13:28.764Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T21:13:28.766Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CongDM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2020-08-09T21:13:28.767Z] CLI Version:   8.7.0
+[debug] [2020-08-09T21:13:28.767Z] Platform:      win32
+[debug] [2020-08-09T21:13:28.767Z] Node Version:  v14.3.0
+[debug] [2020-08-09T21:13:28.768Z] Time:          Mon Aug 10 2020 04:13:28 GMT+0700 (Giờ Đông Dương)
+[debug] [2020-08-09T21:13:28.769Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T21:13:28.769Z] 
+[debug] [2020-08-09T21:13:28.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-09T21:13:28.779Z] > authorizing via signed-in user
+[debug] [2020-08-09T21:13:28.780Z] [iam] checking project cothom for permissions ["firebase.projects.get"]
+[debug] [2020-08-09T21:13:28.783Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cothom:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-08-09T21:13:29.863Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 09 Aug 2020 21:13:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=816","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "8" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"8\" doesn't match your global version \"14\""}}
+[debug] [2020-08-09T21:13:31.918Z] [functions] Watching "D:\Project Reactjs\SpaManger\server\functions" for Cloud Functions...
+[debug] [2020-08-09T21:13:31.935Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-08-09T21:13:31.935Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-08-09T21:13:31.935Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-08-09T21:13:31.936Z] DEBUG: [worker-~diagnostic~-a435e96d-f8a8-43bd-9537-bb99008b14bc]: Assigning socketPath: \\?\pipe\D:\Project Reactjs\SpaManger\server\functions\4600
+[debug] [2020-08-09T21:13:31.937Z] DEBUG: [worker-~diagnostic~-a435e96d-f8a8-43bd-9537-bb99008b14bc]: BUSY
+[debug] [2020-08-09T21:13:32.649Z] DEBUG: [runtime-status] [4600] Functions runtime initialized. {"cwd":"D:\\Project Reactjs\\SpaManger\\server\\functions","node_version":"14.3.0"}
+[debug] [2020-08-09T21:13:32.652Z] DEBUG: [runtime-status] [4600] Disabled runtime features: undefined
+[debug] [2020-08-09T21:13:32.657Z] DEBUG: [runtime-status] [4600] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.660Z] DEBUG: [runtime-status] [4600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.9.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.662Z] DEBUG: [runtime-status] [4600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.9.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.666Z] DEBUG: [runtime-status] [4600] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-08-09T21:13:32.667Z] DEBUG: [runtime-status] [4600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.9.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.905Z] DEBUG: [runtime-status] [4600] Checked functions.config() {"config":{}}
+[debug] [2020-08-09T21:13:32.906Z] DEBUG: [runtime-status] [4600] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.9.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-08-09T21:13:32.907Z] DEBUG: [runtime-status] [4600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.9.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.910Z] DEBUG: [runtime-status] [4600] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.913Z] DEBUG: [runtime-status] [4600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.9.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-08-09T21:13:32.913Z] DEBUG: [runtime-status] [4600] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"D:\\Project Reactjs\\SpaManger\\server\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-08-09T21:13:33.163Z] [functions[app]] http function initialized (http://localhost:5000/cothom/us-central1/app).
+[info] i  functions: Loaded functions: app 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2020-08-09T21:13:33.179Z] DEBUG: [worker-~diagnostic~-a435e96d-f8a8-43bd-9537-bb99008b14bc]: IDLE
